@@ -1,8 +1,9 @@
 html, body{
     height: 100%;
-    background-image: linear-gradient(to top right, red, lightgrey);
+    /* background-image: linear-gradient(to top right, red, lightgrey);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: aqua;
     margin: 0;
 }
 h1{
@@ -46,7 +47,6 @@ a:hover{
 
 }
 .myForm {
-    text-align: center;
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     grid-auto-flow: row dense;
@@ -54,7 +54,11 @@ a:hover{
     padding: 1.2em;
     border: solid 3px;
     width: fit-content;
-    margin-left: 25%;
+    /* margin-left: 25%; */
+  }
+  .abc{
+    display: flex;
+    justify-content: center;
   }
   .myForm > label  {
     grid-column: 1;
